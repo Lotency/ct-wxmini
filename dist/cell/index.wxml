@@ -9,8 +9,8 @@
         <view class="l-flex-item l-cell__bd">
             <slot></slot>
         </view>
-        <view wx:if="{{ isLink }}" class="l-cell__ft">
-            <l-icon name="{{ rightIcon }}"></l-icon>
+        <view wx:if="{{ rightIcon || isLink }}" class="l-cell__ft">
+            <l-icon name="{{ isLink ? 'right' : rightIcon }}"></l-icon>
         </view>
     </view>
 </view>

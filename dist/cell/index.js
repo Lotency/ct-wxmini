@@ -20,7 +20,7 @@ Component({
 		},
 		rightIcon: {
 			type: String,
-			value: 'right'
+			value: ''
 		},
 		title: {
 			type: String,

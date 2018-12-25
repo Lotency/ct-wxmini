@@ -1,0 +1,7 @@
+<l-cell-group title="一个简单的菜单">
+    <l-cell title="菜单标题"></l-cell>
+    <l-cell left-icon="image" title="菜单标题"></l-cell>
+    <l-cell left-icon="image" title="菜单标题" is-link></l-cell>
+    <l-cell left-icon="image" title="菜单标题" right-icon="search"></l-cell>
+    <l-cell left-icon="image" title="菜单标题" right-icon="search">菜单内容</l-cell>
+</l-cell-group>
