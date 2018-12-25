@@ -7,7 +7,7 @@ Component({
 			type: String,
 			value: 'cell'
 			/*
-			* cell、select、input、textarea
+			* cell、select
 			* */
 		},
 		url: {
@@ -29,6 +29,18 @@ Component({
 		isLink: {
 			type: Boolean,
 			value: false
+		},
+		range: {
+			type: Array,
+			value: []
+		},
+		rangeKey: {
+			type: String,
+			value: ''
+		},
+		inputName: {
+			type: String,
+			value: ''
 		}
 	},
 
@@ -69,6 +81,12 @@ Component({
 					_this.triggerEvent('click');
 				}
 			}
+		},
+		handlePicker: function ({ detail }) {
+			this.triggerEvent('change', {
+				value: detail.value,
+				name: this.data.inputName
+			});
 		}
 	}
 })

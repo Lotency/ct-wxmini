@@ -5,7 +5,10 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-
+		list_sex: [
+			{id: 0, value: '女'},
+			{id: 1, value: '男'}
+		]
 	},
 
 	/**
@@ -62,5 +65,29 @@ Page({
 	 */
 	onShareAppMessage: function () {
 
+	},
+
+	/*
+	* 事件处理
+	* */
+	handleClick: function () {
+		console.log('点击了没有URL的菜单');
+	},
+	handleImage: function () {
+		wx.chooseImage({
+			success: res => {
+				console.log(res)
+			}
+		});
+	},
+	handleInput: function (e) {
+		let data = {};
+		data[e.target.id] = e.detail.value;
+		this.setData(data);
+	},
+	handlePicker: function ({ detail }) {
+		let o = {};
+		o[detail.name] = this.data[`list_${detail.name}`][parseInt(detail.value)];
+		this.setData(o);
 	}
 })

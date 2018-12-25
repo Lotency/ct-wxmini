@@ -1,7 +1,19 @@
-<l-cell-group title="一个简单的菜单">
-    <l-cell title="菜单标题"></l-cell>
-    <l-cell left-icon="image" title="菜单标题"></l-cell>
-    <l-cell left-icon="image" title="菜单标题" is-link></l-cell>
-    <l-cell left-icon="image" title="菜单标题" right-icon="search"></l-cell>
+<l-cell-group title="简单的菜单">
+    <l-cell title="菜单标题" is-link></l-cell>
+    <l-cell left-icon="image" title="图片"></l-cell>
+    <l-cell left-icon="search">搜索</l-cell>
+    <l-cell title="操作" bindclick="handleClick" is-link>确定打印？</l-cell>
+    <l-cell title="操作" bindclick="handleImage" right-icon="image">选择图片？</l-cell>
+    <l-cell left-icon="image" title="菜单标题" url="../icon/index" is-link>Icon图标</l-cell>
     <l-cell left-icon="image" title="菜单标题" right-icon="search">菜单内容</l-cell>
+</l-cell-group>
+
+<l-cell-group title="表单">
+    <l-cell title="姓名">
+        <input value="{{ name }}" id="name" bindinput="handleInput" type="text" placeholder="请输入姓名"/>
+    </l-cell>
+    <l-cell cell-type="select" title="性别" range="{{ list_sex }}" range-key="value" bindchange="handlePicker"
+            input-name="sex">
+        <input value="{{ sex.value }}" disabled type="text" placeholder="请选择性别"/>
+    </l-cell>
 </l-cell-group>
