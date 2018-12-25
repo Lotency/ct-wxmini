@@ -1,1 +1,4 @@
-<navigator url="../icon/index">Icon</navigator>
+<view class="title">LWXMINI</view>
+<l-cell-group title="布局">
+    <l-cell title="Icon" is-link>图标</l-cell>
+</l-cell-group>

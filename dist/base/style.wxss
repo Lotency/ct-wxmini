@@ -1,9 +1,0 @@
-@import "icon.wxss";
-
-.l-flex {
-    display: flex;
-}
-
-.l-flex-item {
-    flex: 1;
-}

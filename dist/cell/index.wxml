@@ -1,0 +1,16 @@
+<view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}">
+    <view class="l-flex">
+        <view wx:if="{{ leftIcon }}" class="l-cell__hi">
+            <l-icon name="{{ leftIcon }}"></l-icon>
+        </view>
+        <view>
+            {{ title }}
+        </view>
+        <view class="l-flex-item l-cell__bd">
+            <slot></slot>
+        </view>
+        <view wx:if="{{ isLink }}" class="l-cell__ft">
+            <l-icon name="{{ rightIcon }}"></l-icon>
+        </view>
+    </view>
+</view>

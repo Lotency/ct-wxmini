@@ -1,0 +1,24 @@
+.l-cell {
+    padding: 15rpx 30rpx;
+    font-size: 30rpx;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+.l-flex {
+    display: flex;
+}
+.l-flex-item {
+    flex: 1;
+}
+.l-cell__hi {
+    margin-right: 15rpx;
+}
+.l-cell__bd {
+    text-align: right;
+}
+.l-cell__ft {
+    margin-left: 15rpx;
+}
+.l-cell__ll {
+    border-bottom: 1rpx solid #f7f7f7;
+}

@@ -1,1 +1,8 @@
-/* pages/index/index.wxss */
+.title {
+    display: block;
+    margin: 60rpx auto;
+    text-align: center;
+    font-size: 60rpx;
+    line-height: 1;
+    color: #373737;
+}

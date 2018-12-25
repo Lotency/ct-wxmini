@@ -1,0 +1,15 @@
+.l-cell_group {
+    background: #f7f7f7;
+    font-size: 30rpx;
+    line-height: 1.5;
+    vertical-align: middle;
+    color: #373737;
+}
+.l-cell_group__hd {
+    padding: 20rpx 30rpx 10rpx 30rpx;
+}
+.l-cell_group__bd {
+    border-top: 1rpx solid #f0f0f0;
+    border-bottom: 1rpx solid #f0f0f0;
+    background: white;
+}

@@ -1,0 +1,4 @@
+<view class="l-cell_group">
+    <view class="l-cell_group__hd" wx:if="{{ title }}">{{ title }}</view>
+    <view class="l-cell_group__bd"><slot></slot></view>
+</view>
