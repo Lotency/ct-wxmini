@@ -1,0 +1,30 @@
+<l-panel title="组件图标">
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon name="search"></l-icon>
+            <view class="label">search</view>
+        </view>
+        <view class="flex-item">
+            <l-icon name="check"></l-icon>
+            <view class="label">check</view>
+        </view>
+        <view class="flex-item">
+            <l-icon name="image"></l-icon>
+            <view class="label">image</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon name="left"></l-icon>
+            <view class="label">left</view>
+        </view>
+        <view class="flex-item">
+            <l-icon name="right"></l-icon>
+            <view class="label">right</view>
+        </view>
+        <view class="flex-item">
+            <l-icon name="close"></l-icon>
+            <view class="label">close</view>
+        </view>
+    </view>
+</l-panel>

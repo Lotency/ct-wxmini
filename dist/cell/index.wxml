@@ -1,4 +1,4 @@
-<view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}">
+<view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}" bindtap="handleClick">
     <view class="l-flex">
         <view wx:if="{{ leftIcon }}" class="l-cell__hi">
             <l-icon name="{{ leftIcon }}"></l-icon>

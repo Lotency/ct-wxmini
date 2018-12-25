@@ -1,0 +1,15 @@
+.flex {
+    text-align: center;
+    font-size: 60rpx;
+    line-height: 1;
+    color: #737373;
+}
+.flex-item {
+    padding: 20rpx 10rpx;
+}
+.label {
+    font-size: 24rpx;
+    line-height: 1.5;
+    vertical-align: middle;
+    color: #373737;
+}

@@ -56,6 +56,19 @@ Component({
 			this.setData({
 				isLastChild: value
 			})
+		},
+		handleClick: function () {
+			const _this = this;
+			if (_this.data.cellType === 'cell') {
+				if (_this.data.url) {
+					wx.navigateTo({
+						url: _this.data.url
+					});
+				}
+				else {
+					_this.triggerEvent('click');
+				}
+			}
 		}
 	}
 })
