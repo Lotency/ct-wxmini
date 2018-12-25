@@ -1,0 +1,9 @@
+@import "../../dist/base/style.wxss";
+.l-flex-item {
+    padding: 30rpx 0;
+    text-align: center;
+    font-size: 60rpx;
+}
+.text {
+    font-size: 30rpx;
+}
