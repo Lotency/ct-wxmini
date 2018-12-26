@@ -1,1 +1,2 @@
-<text class="l-icon l-icon-{{ name }}"></text>
+<text wx:if="{{ name }}" class="l-icon l-icon-{{ name }}"></text>
+<text wx:if="{{ !name }}" class="l-icon font-class"></text>

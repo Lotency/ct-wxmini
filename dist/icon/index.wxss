@@ -6,7 +6,7 @@
 }
 
 .l-icon {
-    font-family: 'lwxmini-icon', sans-serif !important;
+    font-family: 'lwxmini-icon', sans-serif;
 }
 
 .l-icon-check:before {

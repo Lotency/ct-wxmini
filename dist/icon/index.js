@@ -6,9 +6,11 @@ Component({
 	properties: {
 		name: {
 			type: String,
-			value: 'right'
+			value: ''
 		}
 	},
+
+	externalClasses: ['font-class'],
 
 	/**
 	 * 组件的初始数据

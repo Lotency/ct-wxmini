@@ -28,3 +28,90 @@
         </view>
     </view>
 </l-panel>
+
+<l-panel title="自定义图标">
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-happy"></l-icon>
+            <view class="label">happy</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-smile"></l-icon>
+            <view class="label">smile</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-tongue"></l-icon>
+            <view class="label">tongue</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-sad"></l-icon>
+            <view class="label">sad</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-wink"></l-icon>
+            <view class="label">wink</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-grin"></l-icon>
+            <view class="label">grin</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-cool"></l-icon>
+            <view class="label">cool</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-angry"></l-icon>
+            <view class="label">angry</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-evil"></l-icon>
+            <view class="label">evil</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-shocked"></l-icon>
+            <view class="label">shocked</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-baffled"></l-icon>
+            <view class="label">baffled</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-confused"></l-icon>
+            <view class="label">confused</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-neutral"></l-icon>
+            <view class="label">neutral</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-hipster"></l-icon>
+            <view class="label">hipster</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-wondering"></l-icon>
+            <view class="label">wondering</view>
+        </view>
+    </view>
+    <view class="flex">
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-sleepy"></l-icon>
+            <view class="label">sleepy</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-frustrated"></l-icon>
+            <view class="label">frustrated</view>
+        </view>
+        <view class="flex-item">
+            <l-icon class="l-icon-face l-icon-face-crying"></l-icon>
+            <view class="label">crying</view>
+        </view>
+    </view>
+</l-panel>
