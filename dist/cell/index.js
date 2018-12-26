@@ -7,7 +7,7 @@ Component({
 			type: String,
 			value: 'cell'
 			/*
-			* cell、select
+			* cell、select、select-time、select-date
 			* */
 		},
 		url: {
@@ -41,6 +41,22 @@ Component({
 		inputName: {
 			type: String,
 			value: ''
+		},
+		startTime: {
+			type: String,
+			value: '00:00'
+		},
+		endTime: {
+			type: String,
+			value: '23:59'
+		},
+		startDate: {
+			type: String,
+			value: ''
+		},
+		endDate: {
+			type: String,
+			value: '2100-01-01'
 		}
 	},
 
@@ -85,7 +101,8 @@ Component({
 		handlePicker: function ({ detail }) {
 			this.triggerEvent('change', {
 				value: detail.value,
-				name: this.data.inputName
+				name: this.data.inputName,
+				type: this.data.cellType
 			});
 		}
 	}

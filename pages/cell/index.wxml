@@ -16,4 +16,12 @@
             input-name="sex">
         <input value="{{ sex.value }}" disabled type="text" placeholder="请选择性别"/>
     </l-cell>
+    <l-cell cell-type="select-time" title="请假时间" bindchange="handlePicker" start-time="09:00" end-time="18:00"
+            input-name="time">
+        <input value="{{ time }}" disabled type="text" placeholder="请选择时间"/>
+    </l-cell>
+    <l-cell cell-type="select-date" title="生日" bindchange="handlePicker" start-date="2000-01-01" end-date="2080-12-31"
+            input-name="date">
+        <input value="{{ date }}" disabled type="text" placeholder="请选择日期"/>
+    </l-cell>
 </l-cell-group>

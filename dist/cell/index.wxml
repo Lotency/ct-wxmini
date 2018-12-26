@@ -18,6 +18,46 @@
         </view>
     </picker>
 </block>
+<block wx:if="{{ cellType === 'select-time' }}">
+    <picker bindchange="handlePicker" mode="time" start="{{ startTime }}" end="{{ endTime }}">
+        <view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}" bindtap="handleClick">
+            <view class="l-flex">
+                <view wx:if="{{ leftIcon }}" class="l-cell__hi">
+                    <l-icon name="{{ leftIcon }}"></l-icon>
+                </view>
+                <view>
+                    {{ title }}
+                </view>
+                <view class="l-flex-item l-cell__bd">
+                    <slot></slot>
+                </view>
+                <view class="l-cell__ft">
+                    <l-icon name="{{ !rightIcon ? 'right' : rightIcon }}"></l-icon>
+                </view>
+            </view>
+        </view>
+    </picker>
+</block>
+<block wx:if="{{ cellType === 'select-date' }}">
+    <picker bindchange="handlePicker" mode="date" start="{{ startDate }}" end="{{ endDate }}">
+        <view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}" bindtap="handleClick">
+            <view class="l-flex">
+                <view wx:if="{{ leftIcon }}" class="l-cell__hi">
+                    <l-icon name="{{ leftIcon }}"></l-icon>
+                </view>
+                <view>
+                    {{ title }}
+                </view>
+                <view class="l-flex-item l-cell__bd">
+                    <slot></slot>
+                </view>
+                <view class="l-cell__ft">
+                    <l-icon name="{{ !rightIcon ? 'right' : rightIcon }}"></l-icon>
+                </view>
+            </view>
+        </view>
+    </picker>
+</block>
 <block wx:if="{{ cellType === 'cell' }}">
     <view class="l-cell {{ isLastChild ? '' : 'l-cell__ll'}}" bindtap="handleClick">
         <view class="l-flex">

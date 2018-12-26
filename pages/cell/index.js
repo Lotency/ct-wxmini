@@ -87,7 +87,15 @@ Page({
 	},
 	handlePicker: function ({ detail }) {
 		let o = {};
-		o[detail.name] = this.data[`list_${detail.name}`][parseInt(detail.value)];
+		switch (detail.type) {
+			case 'select':
+				o[detail.name] = this.data[`list_${detail.name}`][parseInt(detail.value)];
+				break;
+			case 'select-time':
+			case 'select-date':
+				o[detail.name] = detail.value;
+				break;
+		}
 		this.setData(o);
 	}
 })
