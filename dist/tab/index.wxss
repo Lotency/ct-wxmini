@@ -1,0 +1,27 @@
+.l-tabs {
+    display:flex;
+    width:100vw;
+    height: 90rpx;
+    overflow: hidden;
+    box-sizing:border-box;
+    justify-content:space-around;
+    background: white;
+}
+.l-tabs-item {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 25rpx 15rpx 20rpx 15rpx;
+    height: 90rpx;
+    border-bottom: 5rpx solid transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 24rpx;
+    line-height: 40rpx;
+    color: #737373;
+}
+.l-tabs-item__active {
+    color: #373737;
+    border-color: #373737;
+}

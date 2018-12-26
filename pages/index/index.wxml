@@ -2,4 +2,5 @@
 <l-cell-group title="常用">
     <l-cell title="Icon" url="../icon/index" is-link>图标</l-cell>
     <l-cell title="Cell" url="../cell/index" is-link>菜单</l-cell>
+    <l-cell title="Tab" url="../tab/index" is-link>选项卡</l-cell>
 </l-cell-group>

@@ -1,0 +1,6 @@
+<view class="l-tabs l-class">
+    <view wx:for="{{ tabList }}" wx:key="{{ index }}" data-index="{{ index }}" data-value="{{ item }}"
+          class="l-tabs-item {{ current == index ? 'l-tabs-item__active' : '' }}" bindtap="handleChange">
+        {{ !tabKey ? item : item[tabKey] }}
+    </view>
+</view>

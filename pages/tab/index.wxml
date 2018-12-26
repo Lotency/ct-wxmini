@@ -1,0 +1,1 @@
+<l-tab current="{{ current }}" bindchange="handleTabs" tab-list="{{ list }}" tab-key="title"></l-tab>
